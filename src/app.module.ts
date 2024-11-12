@@ -11,7 +11,7 @@ import { PrismaModule } from '../prisma/prisma.module';
     AuthModule, 
     UsersModule, 
     ProductsModule, 
-    PrismaModule, // Agregado para la integración con Prisma
+    PrismaModule,
   ],
   controllers: [AppController],
   providers: [AppService],
